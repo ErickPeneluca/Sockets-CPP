@@ -1,4 +1,4 @@
-# Sockets-C
+# Sockets-C++
 
 Implementação de comunicação cliente-servidor usando sockets TCP em C++, com suporte para IPv4 e IPv6.
 
