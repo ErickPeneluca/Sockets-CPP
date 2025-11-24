@@ -109,16 +109,6 @@ int main() {
                     }
                 }
                 
-                if (linhaAtual.length() > 0) {
-                    if (linhaAtual == "ESCAPED_bye") {
-                        processado = processado + "bye\n";
-                        cout << "bye (byte stuffing desfeito)" << endl;
-                    } else {
-                        processado = processado + linhaAtual + "\n";
-                        cout << linhaAtual << endl;
-                    }
-                }
-                
                 string nomeArquivo = host + "_" + porta + "_files.txt";
                 ofstream arquivo(nomeArquivo);
                 
